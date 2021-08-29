@@ -1,0 +1,32 @@
+package com.youtubechallenge2.code;
+
+public class Organ {
+    private String name;
+    private String medicalCondition;
+
+    public Organ(String name, String medicalCondition) {
+        this.name = name;
+        this.medicalCondition = medicalCondition;
+    }
+
+    public void printData() {
+        System.out.println("Name: " + this.name);
+        System.out.println("Medical Condition: " + this.medicalCondition);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getMedicalCondition() {
+        return medicalCondition;
+    }
+
+    public void setMedicalCondition(String medicalCondition) {
+        this.medicalCondition = medicalCondition;
+    }
+}
